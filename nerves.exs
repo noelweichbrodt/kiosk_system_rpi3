@@ -18,9 +18,9 @@ config pkg, :nerves_env,
   platform_config: [
     defconfig: "nerves_defconfig"
   ],
-  provider_config: [
-    docker: {"Dockerfile", "kiosk_system_rpi3:0.11.0"}
-  ],
+#  provider_config: [
+#    docker: {"Dockerfile", "kiosk_system_rpi3:0.11.0"}
+#  ],
   checksum: [
     "nerves_defconfig",
     "rootfs_overlay",
